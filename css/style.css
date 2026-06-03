@@ -1,0 +1,23 @@
+.bg-primario-custom {
+    background-color: #0a60e2;
+}
+
+.text-secundario-custom {
+    color: #0ea5e9;
+}
+
+.btn-custom {
+    background-color: #0ea5e9;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #0284c7;
+    color: white;
+}
+
+.carousel-img-fixed {
+    height: 60vh;
+    object-fit: cover;
+}
