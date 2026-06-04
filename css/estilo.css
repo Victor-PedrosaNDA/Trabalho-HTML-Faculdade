@@ -1,0 +1,72 @@
+.bg-primario-custom {
+    background-color: #01050a;
+}
+
+.text-secundario-custom {
+    color: #0ea5e9;
+}
+
+.btn-custom {
+    background-color: #0ea5e9;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #0284c7;
+    color: white;
+}
+
+.carousel-img-fixed {
+    height: 60vh;
+    object-fit: cover;
+}
+
+:root {
+    --logo-primario: #01050a;
+    --logo-secundario: #0ea5e9;
+    --logo-acento: #facc15;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #111827;
+}
+
+.hover-secundario:hover,
+.hover-secundario:focus {
+    color: var(--logo-secundario) !important;
+}
+
+.section-title {
+    color: var(--logo-secundario);
+    letter-spacing: 0.08em;
+}
+
+.card-team {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-team:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.bg-logo-accent {
+    background-color: var(--logo-acento) !important;
+}
+
+.btn-logo-accent {
+    background-color: var(--logo-acento);
+    color: #0f172a;
+    border-color: var(--logo-acento);
+}
+
+.btn-logo-accent:hover {
+    background-color: #ad8b2b;
+    border-color: #f7b600;
+}
+
+.text-logo-accent {
+    color: var(--logo-acento) !important;
+}
